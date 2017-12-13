@@ -235,7 +235,6 @@ include device/qcom/sepolicy/sepolicy.mk
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
-PRODUCT_COMPATIBILITY_MATRIX_LEVEL_OVERRIDE := 27
 
 # Inherit the proprietary files
 include vendor/xiaomi/rosy/BoardConfigVendor.mk
