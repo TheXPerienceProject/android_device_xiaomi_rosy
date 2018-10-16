@@ -127,6 +127,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.offload.multiaac.enable=true \
     vendor.audio.flac.sw.decoder.24bit=true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=7
+
 # Audio-qcom
 PRODUCT_PACKAGES += \
     audio.primary.msm8953 \
