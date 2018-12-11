@@ -52,6 +52,7 @@ vendor/bin/hci_qcomm_init
 vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 
 # CNE - from msm8953-common
 etc/cne/andsfCne.xml
