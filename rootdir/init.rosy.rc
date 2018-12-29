@@ -46,3 +46,11 @@ service goodix_script /vendor/bin/init.goodix.sh
     # Peel IR
     chown system system /dev/peel_ir
     chmod 0660 /dev/peel_ir
+
+on post-fs-data
+
+    # IR nodes
+    chown system system /dev/spidev7.1
+    chown system system /dev/spidev6.1
+    chmod 0666 /dev/spidev7.1
+    chmod 0666 /dev/spidev6.1
