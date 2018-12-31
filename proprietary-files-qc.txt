@@ -181,6 +181,9 @@ lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.
 lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 lib64/libvendor.goodix.hardware.fingerprint@1.0.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 
+# Fm
+vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
+
 # Gatekeeper - from rosy MIUI_8.12.6
 vendor/lib/hw/gatekeeper.msm8953.so
 vendor/lib64/hw/gatekeeper.msm8953.so
