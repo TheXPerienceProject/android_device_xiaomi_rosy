@@ -441,6 +441,7 @@ vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
+vendor/lib64/libthermalfeature.so
 
 # Time services - from rosy MIUI_8.12.6
 -vendor/app/TimeService/TimeService.apk
@@ -526,6 +527,8 @@ vendor/bin/netmgrd
 vendor/bin/qti
 vendor/bin/rmt_storage
 vendor/bin/tftp_server
+vendor/lib/liboemaids_vendor.so
+vendor/lib64/liboemaids_vendor.so
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
 vendor/lib/libconfigdb.so
@@ -562,6 +565,8 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/radio/qcril_database/qcril.db
+vendor/lib/vendor.qti.hardware.radio.uim@1.1_vendor.so
+vendor/lib64/vendor.qti.hardware.radio.uim@1.1_vendor.so
 
 # Radio - IMS - from rosy MIUI_8.12.6
 -app/ims/ims.apk
