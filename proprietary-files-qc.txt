@@ -381,6 +381,7 @@ vendor/lib64/libwms.so
 # Perf - from rosy MIUI_8.12.6
 lib/vendor.qti.hardware.perf@1.0.so
 lib64/vendor.qti.hardware.perf@1.0.so
+vendor/bin/energy-awareness
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/bin/msm_irqbalance
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
