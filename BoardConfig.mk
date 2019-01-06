@@ -237,4 +237,4 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 include vendor/xiaomi/rosy/BoardConfigVendor.mk
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2018-01-01
+VENDOR_SECURITY_PATCH := 2018-11-01
