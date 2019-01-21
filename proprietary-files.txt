@@ -1,3 +1,13 @@
+# Audio ACDB - from MIUI Stable - V9.6.4.0.NDAMIFD
+etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+etc/acdbdata/adsp_avs_config.acdb:vendor/etc/acdbdata/adsp_avs_config.acdb
+
 # Camera - from rosy MIUI_V9.2.3.0
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libllvd_smore.so
