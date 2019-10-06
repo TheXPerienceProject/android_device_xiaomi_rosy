@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-mokee
+    $(LOCAL_PATH)/overlay-xperience
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -221,7 +221,13 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
-PRODUCT_PROPERTY_OVERRIDES += \
+# Display QTI
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.display.allocator@1.0 \
+    vendor.qti.hardware.display.composer@1.0 \
+    vendor.display.config@1.4 \
+    vendor.qti.hardware.display.mapper@1.0
+
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=0 \
     debug.enable.sglscale=1 \

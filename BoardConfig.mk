@@ -232,6 +232,8 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
+# VNDK
+DEVICE_DEFINES_OWN_VNDK := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/rosy/BoardConfigVendor.mk

@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mk_rosy.mk
+    $(LOCAL_DIR)/xperience_rosy.mk
